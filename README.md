@@ -1,1 +1,1 @@
-TinyLang Compiler
+# TinyLang Compiler
