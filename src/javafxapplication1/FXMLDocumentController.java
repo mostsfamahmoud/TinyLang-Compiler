@@ -18,6 +18,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TreeTableColumn;
 import javafx.scene.control.TreeTableView;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -34,7 +36,8 @@ public class FXMLDocumentController implements Initializable {
    FileChooser fileChooser;
    File input;
 
-
+    @FXML
+    private ImageView myimage;
     @FXML
     private AnchorPane anchorpane;
     @FXML
@@ -61,11 +64,14 @@ public class FXMLDocumentController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
          // TODO
+           myimage.setImage(new Image(getClass().getResourceAsStream("Arroww.png")));
          fileChooser = new FileChooser();
           FileChooser.ExtensionFilter Filter = new FileChooser.ExtensionFilter("TXT files (*.txt)", "*.txt");
           FileChooser.ExtensionFilter Filter2 = new FileChooser.ExtensionFilter("XML files (*.xml)", "*.xml");
          fileChooser.getExtensionFilters().add(Filter);
           fileChooser.getExtensionFilters().add(Filter2);
+        
+
     }    
 
 

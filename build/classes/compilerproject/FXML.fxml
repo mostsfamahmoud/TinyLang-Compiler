@@ -102,9 +102,9 @@
             </HBox>
          </top>
          <center>
-            <ImageView blendMode="SRC_ATOP" fitHeight="150.0" fitWidth="200.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <ImageView fx:id="myimage" blendMode="SRC_ATOP" disable="true" fitHeight="150.0" fitWidth="200.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
                <image>
-                  <Image url="file:/C:/Users/habib/OneDrive/Documents/NetBeansProjects/CompilerProject/src/compilerproject/Arroww.png" />
+                  <Image url="@../../../../../../Downloads/Arroww.png" />
                </image>
             </ImageView>
          </center>
