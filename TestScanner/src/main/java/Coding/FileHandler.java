@@ -38,6 +38,13 @@ public class FileHandler {
 		return Lines;
     }
 
+    public String GenerateCSV(String file) throws IOException
+    {
+        return file.replaceAll("   ",",");
+    }
+
+
+
     /*
     * Function to write the new formatted file into a specific path
     * */

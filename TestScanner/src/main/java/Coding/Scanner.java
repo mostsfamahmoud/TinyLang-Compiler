@@ -193,6 +193,9 @@ public class Scanner {
 		// Test printing on console
 		System.out.println(outputString);
 
+		String csvFile = fileHandler.GenerateCSV(outputString);
+		fileHandler.WriteFile(csvFile,"OutputCSV.txt");
+
 		String[] tokenArray = fileHandler.SplitFile(outputString);
 		//Test function SplitFile
 		System.out.println(Arrays.toString(tokenArray));
@@ -223,6 +226,8 @@ public class Scanner {
 		System.out.println(Arrays.toString(tokenValues));
 		//Print tokenTypes array on console
 		System.out.println(Arrays.toString(tokenTypes));
+
+
 
 
 	}
