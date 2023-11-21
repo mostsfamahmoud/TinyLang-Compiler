@@ -9,7 +9,7 @@ if(choice=0) then result := 0 else result := 1 end;
 repeat
 
 	if(choice = 0) then
-		result := result + x
+		result :. result + x
 	else
 		result := result * x
 	end;
