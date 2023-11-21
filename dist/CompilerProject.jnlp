@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="CompilerProject.jar" size="65645" download="eager" />
+    <jar href="CompilerProject.jar" size="64284" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="compilerproject.CompilerProject"  name="CompilerProject" />
   <update check="always"/>

@@ -3,9 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
  */
 package compilerproject;
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.RandomAccessFile;
+
 
 public class Token {
 	/**

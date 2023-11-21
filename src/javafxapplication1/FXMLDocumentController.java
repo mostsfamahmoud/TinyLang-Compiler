@@ -8,7 +8,6 @@ import compilerproject.FileHandler;
 import compilerproject.Scanner;
 import compilerproject.Token;
 import compilerproject.Token.TokenType;
-import static compilerproject.Token.TokenType.IF;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
@@ -143,7 +142,7 @@ public class FXMLDocumentController implements Initializable {
                 TextArea1.setText(fileContents);
             } catch (IOException e) {
                 e.printStackTrace();
-                // Handle the exception as needed
+ 
             }
         } else {
             JOptionPane.showMessageDialog(null, "You didn't select a file", "Error", JOptionPane.ERROR_MESSAGE);
