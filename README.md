@@ -8,8 +8,7 @@ Welcome to the Scanner project, the first phase of our TINY language compiler! T
 1. [Introduction](#introduction)
 2. [Snapshots](#snapshots)
 3. [Installation](#installation)
-4. [Contributing](#contributing)
-5. [Team Members](#team-members)
+4. [Team Members](#team-members)
 
 ---
 
