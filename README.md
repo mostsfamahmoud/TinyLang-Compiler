@@ -31,7 +31,7 @@ The Scanner is a crucial component that reads the source code, performing lexica
 3. Run the scanner program.
 4. Retrieve the output file containing the list of tokens.
 
-You can also download the executable file from [this link](https://drive.google.com/drive/folders/19QofUxse8PqLLCcGYmsMiqdStRp7p1oF?usp=sharing).
+You can also download the executable file from [this link]([https://drive.google.com/drive/folders/19QofUxse8PqLLCcGYmsMiqdStRp7p1oF?usp=sharing](https://drive.google.com/drive/folders/1xX0IYw1hvXG0Eqq4dF2A-MG6Z8NWVt3C?usp=sharing)).
 
 ## Team Members
 
