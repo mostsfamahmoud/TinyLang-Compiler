@@ -20,11 +20,11 @@ The Scanner is a crucial component that reads the source code, performing lexica
 ## Snapshots
 
 ### Example 1
-![Snapshot 1](snapshot_1)
-![Snapshot 2](snapshot_2)
-![Snapshot 3](snapshot_3)
+![Snapshot 1](snapshot_1.jpg)
+![Snapshot 2](snapshot_2.jpg)
+![Snapshot 3](snapshot_3.jpg)
 ### Example 2 "error state"
-![Snapshot 4](snapshot_4)
+![Snapshot 4](snapshot_4.jpg)
 
 ## Installation
 1. Clone the repository.
