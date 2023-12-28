@@ -1,4 +1,4 @@
-# Parser
+# Tiny-Language Compiler
 
 ## Overview
 Welcome to the Scanner & parser project, In the first phase, called the Scanner, we created a tool that reads TINY language code and makes a list of tokens, each with a value and type, saving them to a file.
