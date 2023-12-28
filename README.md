@@ -1,7 +1,9 @@
-# TinyLang Compiler
+# Parser
 
 ## Overview
-Welcome to the Scanner project, the first phase of our TINY language compiler! This program reads a TINY language snippet and generates a list of tokens, each represented by a token value and type, which are then saved to a file.
+Welcome to the Scanner & parser project, In the first phase, called the Scanner, we created a tool that reads TINY language code and makes a list of tokens, each with a value and type, saving them to a file.
+
+Now, in the second phase, called the Parser, we've built on the Scanner's work. The Parser goes through the tokens and puts them together to create a syntax tree, showing the structure of the TINY language code.
 
 ## Table of Contents
 
@@ -21,17 +23,18 @@ The Scanner is a crucial component that reads the source code, performing lexica
 ### Example 1
 ![Snapshot 1](snapshot_1.jpg)
 ![Snapshot 2](snapshot_2.jpg)
-![Snapshot 3](snapshot_3.jpg)
-### Example 2 "error state"
-![Snapshot 4](snapshot_4.jpg)
+### Example 2
+![Snapshot 1](snapshot_3.jpg)
+![Snapshot 2](snapshot_4.jpg)
 
 ## Installation
 1. Clone the repository.
 2. Provide your TINY language snippet in a file.
 3. Run the scanner program.
-4. Retrieve the output file containing the list of tokens.
+4. Retrieve the output file containing the list of tokens. Additionally, the system now supports parsing capabilities, allowing you to inspect and visualize the syntax tree.
 
-You can also download the executable file from [this link]([https://drive.google.com/drive/folders/19QofUxse8PqLLCcGYmsMiqdStRp7p1oF?usp=sharing](https://drive.google.com/drive/folders/1xX0IYw1hvXG0Eqq4dF2A-MG6Z8NWVt3C?usp=sharing)).
+You can download the executable file from [this link](https://drive.google.com/drive/folders/183pajip5B7IxA4wvz-X9Er8iNC1Bs0OT?usp=sharing).
+
 
 ## Team Members
 
